@@ -1,0 +1,4 @@
+* in daily-office
+lilypond-book --output=out --pdf daily-office.lytex
+* in daily-office/out
+pdflatex daily-office.tex

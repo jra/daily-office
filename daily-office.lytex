@@ -1,0 +1,401 @@
+\documentclass[8pt]{extbook}
+\usepackage[width=4.375in, height=7.0in, top=1.0in, papersize={5.5in,8.5in}]{geometry}
+\usepackage[LGR,T1]{fontenc}
+\usepackage[utf8]{inputenc}   % utf8 is required
+\usepackage[pdftex]{graphicx}
+\usepackage{ifthen}
+\usepackage{babel}
+\usepackage{textcomp}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\usepackage{poemscol}
+\usepackage{attrib}
+\usepackage{bibleref}
+
+%\titleformat{\chapter}{\normalfont\huge}{\thechapter.}{20pt}{\huge\it}
+%\titleformat{\chapter}{\normalfont\huge}{}{20pt}{\huge}
+
+% https://tex.stackexchange.com/questions/14126/good-latex-package-for-typesetting-bible-quotations
+\def\PreTrib{} \def\PostTrib{} % We'll do our own parens, thanks!
+\def\vattrib#1#2{\attrib{\small{\textsc{\bibleverse{#1}#2}}}}
+
+\def\bcpinst#1{\small\textit{#1}\normalsize}
+
+\titleformat{\chapter}[display]
+{\normalfont\huge\bfseries}{}{20pt}{\Huge}
+\titlespacing*{\chapter}{0pt}{-50pt}{20pt}
+
+\setlength\parskip{6pt}
+\setlength\parindent{0pt}
+
+\setcounter{secnumdepth}{0}
+
+\begin{document}
+
+\global\verselinenumbersfalse
+
+\chapter{Matins}
+
+Grace be unto you and peace, from God our Father, and from the Lord Jesus Christ.
+\vattrib{Philippians}{(1:2)}
+
+I was glad when they said unto me, We will go into the house of the Lord.
+\vattrib{Psalms}{(122:1)}
+
+Let the words of my mouth, and the meditation of my heart, be alway acceptable in your sight, O Lord, my strength and my redeemer.
+\vattrib{Psalms}{(19:14)}
+
+\section{\textsc{confession of sin}}
+
+\bcpinst{The Officiant says to the People}
+
+Let us humbly confess our sins unto Almighty God.
+
+\bcpinst{Silence is kept. All kneeling, the Officiant and People say}
+
+\begin{poem}
+\begin{stanza}
+\textbf{
+Almighty and most merciful Father, \verseline
+\verseindent we have erred and strayed from thy ways like lost sheep. \verseline
+We have followed too much the devices and desires \verseline
+\verseindent of our own hearts. \verseline
+We have offended against thy holy laws. \verseline
+We have left undone those things which we ought to have done, \verseline
+\verseindent and we have done those things which we ought not \verseline
+\verseindent to have done; \verseline
+\verseindent and apart from thy grace, there is no health in us. \verseline
+But thou, O Lord, have mercy upon us, miserable offenders. \verseline
+Spare thou those, O God, who confess their faults. \verseline
+Restore thou those who are penitent, according to thy promises \verseline
+\verseindent declared unto mankind in Christ Jesus our Lord. \verseline
+And grant, O most merciful Father, for his sake, \verseline
+\verseindent that we may hereafter live a godly, righteous, and sober life, \verseline
+\verseindent to the glory of thy holy Name. Amen.
+}
+\end{stanza}
+\end{poem}
+
+\bcpinst{A Deacon or layperson remains kneeling and prays}
+
+Grant, we beseech thee, merciful Lord, to thy faithful people pardon and peace, that we may be cleansed from all our sins, and serve thee with a quiet mind; through Jesus Christ our Lord. \textbf{Amen.}
+
+\section{\textsc{invitatory}}
+
+\subsection{\textsc{preces}}
+
+\bcpinst{All stand.}
+
+\begin{lilypond}[noindent,fragment,staffsize=15]
+    \key d \major
+    {
+      \clef "treble"
+      \hide Staff.Stem
+      \override Staff.TimeSignature #'stencil = ##f
+      \cadenzaOn
+      a'\breve a'4 a'4 fis'4 a'4
+      \cadenzaOff
+      \bar "|"
+    }
+    \addlyrics {
+      \once \override LyricText.self-alignment-X = #LEFT
+      O_Lord, open thou our lips;
+    }
+\end{lilypond}
+
+%\begin{lilypond}[quote,noindent,fragment,staffsize=15]
+%    \key d \major
+%    {
+%      \clef "treble"
+%      \hide Staff.Stem
+%      \override Staff.TimeSignature #'stencil = ##f
+%      \cadenzaOn
+%      a'\breve a'4 a'4 fis'4 a'4
+%      \cadenzaOff
+%      \bar "|"
+%    }
+%    \addlyrics {
+%      \once \override LyricText.self-alignment-X = #LEFT
+%      O_Lord, open thou our lips;
+%    }
+%\end{lilypond}
+
+\begin{lilypond}[noindent,fragment,staffsize=15]
+    \key d \major
+    {
+      \clef "treble"
+      \override Staff.TimeSignature #'stencil = ##f
+      \cadenzaOn
+      a'\breve b'8[ a'8] fis'4
+      \cadenzaOff
+      \bar "||"
+    }
+    \addlyrics {
+      \once \override LyricText.self-alignment-X = #LEFT
+      And_our_mouth_shall_show forth thy praise.
+    }
+\end{lilypond}
+
+%\begin{lilypond}[quote,noindent,fragment,staffsize=15]
+%    melody =
+%    \key d \major
+%    {
+%      \clef "treble"
+%      \override Staff.TimeSignature #'stencil = ##f
+%      \cadenzaOn
+%      a'\breve b'8[ a'8] fis'4
+%      \cadenzaOff
+%      \bar "||"
+%    }
+%    \addlyrics {
+%      \once \override LyricText.self-alignment-X = #LEFT
+%      \markup\bold {\lyricmode{And_our_mouth_shall_show forth thy praise.}}
+%    }
+%\end{lilypond}
+
+\begin{lilypond}[noindent,fragment,staffsize=15]
+    \key d \major
+    {
+      \clef "treble"
+      \hide Staff.Stem
+      \override Staff.TimeSignature #'stencil = ##f
+      \cadenzaOn
+      a'\breve b'4 a'4 a'4
+      \cadenzaOff
+      \bar "|"
+    }
+    \addlyrics {
+      \once \override LyricText.self-alignment-X = #LEFT
+      O_God,_make_speed to save us;
+    }
+\end{lilypond}
+
+\begin{lilypond}[noindent,fragment,staffsize=15]
+    \key d \major
+    {
+      \clef "treble"
+      \override Staff.TimeSignature #'stencil = ##f
+      \cadenzaOn
+      a'\breve a'8[ a'8 gis'8] a'4
+      \cadenzaOff
+      \bar "||"
+    }
+    \addlyrics {
+      \once \override LyricText.self-alignment-X = #LEFT
+      O_Lord,_make haste to help us.
+    }
+\end{lilypond}
+
+\begin{lilypond}[noindent,fragment,staffsize=15]
+    \key d \major
+    {
+      \clef "treble"
+      \override Staff.TimeSignature #'stencil = ##f
+      \cadenzaOn
+      fis'8[ d'8] a'\breve fis'8[ g'8] a'4 \bar "|"
+      a'\breve d'8[ cis'8] b'4
+      \cadenzaOff
+      \bar "|"
+    }
+    \addlyrics {
+      Glo -- ry
+      \once \override LyricText.self-alignment-X = #LEFT
+      "be to the Father, and" to the Son,
+      \once \override LyricText.self-alignment-X = #LEFT
+      and_to_the Ho -- ly Ghost;
+    }
+\end{lilypond}
+
+\begin{lilypond}[noindent,fragment,staffsize=15]
+    \key d \major
+    {
+      \clef "treble"
+      \override Staff.TimeSignature #'stencil = ##f
+      \cadenzaOn
+      fis'\breve b'8([ a'8]) g'4 \bar "|"
+      fis'\breve e'8([ d'8]) d'8([ cis'8]) d'4
+      \cadenzaOff
+      \bar "||"
+    }
+    \addlyrics {
+      \once \override LyricText.self-alignment-X = #LEFT
+      As_it_was_in_the_be -- gin -- ning,
+      \once \override LyricText.self-alignment-X = #LEFT
+      is_now,_and_ever_shall_be,_world_with-out end. A -- men.
+    }
+\end{lilypond}
+
+\begin{lilypond}[noindent,fragment,staffsize=15]
+    \key d \major
+    {
+      \clef "treble"
+      \override Staff.TimeSignature #'stencil = ##f
+      \cadenzaOn
+      d'8 e'8[ d'8] d'4( cis'4) \bar "|"
+      \cadenzaOff
+      \bar "|"
+    }
+    \addlyrics {
+      Praise ye the Lord.
+    }
+\end{lilypond}
+
+\begin{lilypond}[noindent,fragment,staffsize=15]
+    \key d \major
+    {
+      \clef "treble"
+      \override Staff.TimeSignature #'stencil = ##f
+      \cadenzaOn
+      d'8 d'4 e'8[ d'8] d'8[ cis'8] cis'4
+      \cadenzaOff
+      \bar "||"
+    }
+    \addlyrics {
+      The Lord’s Name be pra -- is-ed.
+    }
+\end{lilypond}
+
+%\begin{lilypond}[noindent,fragment,staffsize=26]
+%  c' d' e' f' g'2 g'2
+%\end{lilypond}
+
+\subsection{\textsc{invitatory psalm}}
+
+% MtL 644, R. Tomlinson
+\begin{lilypond}[quote,noindent,fragment,staffsize=15]
+    \key d \major
+    {
+      \clef "treble"
+      \override Staff.TimeSignature #'stencil = ##f
+      fis'1  a'2 gis'2  a'1
+      \bar "||"
+      a'1  b'2 d''2  d''2 cis''2  d''1
+      \bar "|."
+    }
+\end{lilypond}
+
+\subsubsection{\textsc{antiphons}}
+
+\begin{poem}
+\begin{stanza}
+The earth is the \textsc{Lord's} | for he made it; * \verseline
+\verseindent \textbf{O come, let | us aDORE him.}
+\end{stanza}
+\end{poem}
+
+\poemtitle{Venite}
+\poemsubtitle{O Come}
+\textbf{
+\begin{poem}
+\begin{stanza}
+O come, let us sing | unto $\cdot$ the \textsc{Lord}; * \verseline
+\verseindent let us heartily rejoice in the strength of | our salVAtion. \verseline
+Let us come before his presence with | THANKSgiving; * \verseline
+\verseindent and show ourselves | glad in him with psalms. \verseline
+For the \textsc{Lord} is a | GREAT God * \verseline
+\verseindent and a great | King above all gods. \verseline
+In his hand are all the corners | of the earth; * \verseline
+\verseindent and the strength of the hills is | HIS ALso. \verseline
+The sea is | his, and $\cdot$ he made it, * \verseline
+\verseindent and his hands pre|pared the DRY land. \verseline
+O come, let us worship and | FALL down, * \verseline
+\verseindent and kneel before the | \textsc{Lord} our MAker. \verseline
+For he is the | \textsc{Lord} our God, * \verseline
+\verseindent and we are the people of his pasture, and the | sheep of HIS hand.
+\end{stanza}
+\end{poem}
+}
+
+\bcpinst{The following verses may be omitted, except in Lent.}
+
+\textbf{
+\begin{poem}
+\begin{stanza}
+Today, if ye will hear his voice, harden not your hearts * \verseline
+\verseindent as in the provocation, and as in the day of temptation in \verseline
+\verseindent the wilderness, \verseline
+When your fathers tempted me, * \verseline
+\verseindent proved me, and saw my works. \verseline
+Forty years long was I grieved with this generation and said, * \verseline
+\verseindent It is a people that err in their hearts, \verseline
+\verseindent for they have not known my ways: \verseline
+Unto whom I swore in my wrath, * \verseline
+\verseindent that they should not enter into my rest.
+\end{stanza}
+\end{poem}
+}
+
+\vattrib{Psalms}{(95:1-7, 8-11)}
+
+\bcpinst{or this}
+
+\poemtitle{Jubilate}
+\poemsubtitle{Be Joyful}
+\textbf{
+\begin{poem}
+\begin{stanza}
+O be joyful in the Lord, | all ye lands; * \verseline
+\verseindent serve the Lord with gladness, \verseline
+\verseindent and come before his | presence with a song. \verseline
+Be ye sure that the Lord he is God; \verseline
+it is he that hath made us, and not | we ourselves; * \verseline
+\verseindent we are his people, and the | sheep of $\cdot$ his PASture. \verseline
+O go your way into his gates with thanksgiving, \verseline
+and into his | courts with praise; * \verseline
+\verseindent be thankful unto him, and | SPEAK | good of $\cdot$ his Name. \verseline
+For the Lord is gracious, his mercy is | everlasting; * \verseline
+\verseindent and his truth endureth from generation to | generAtion.
+\end{stanza}
+\end{poem}
+}
+\vattrib{Psalms}{100}
+
+\section{\textsc{the psalm or psalms appointed}}
+
+\subsection{\textsc{gloria patri}}
+
+\textbf{
+\begin{poem}
+\begin{stanza}
+Glory be to the Father, and | to the Son, * \verseline
+\verseindent and | to the Holy Ghost; \verseline
+As it was in the beginning, is now, and | ever shall be, * \verseline
+\verseindent world without END. Amen.
+\end{stanza}
+\end{poem}
+}
+
+\section{\textsc{the lessons}}
+
+\subsection{\textsc{canticles}}
+
+\section{\textsc{the apostles' creed}}
+
+\section{\textsc{the prayers}}
+
+\subsection{\textsc{suffrages}}
+
+\subsection{\textsc{the collect of the day}}
+
+\subsection{\textsc{prayer for mission}}
+
+\subsection{\textsc{hymn}}
+
+\subsection{\textsc{the general thanksgiving}}
+
+\subsection{\textsc{a prayer of st. john chrysostom}}
+
+\section{\textsc{closing}}
+
+\end{document}
+
+% TODO
+% bold resoponses
+% section headings, book features
+% double quarter note
+% match latex and lilypond font
+% fix vertical spacing
+% fix poem line continuation spacing
+% add stuff to
+% DONE
+% fix indents
