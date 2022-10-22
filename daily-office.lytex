@@ -33,6 +33,8 @@
 %\renewcommand{\afterpoemskip}{\smallskip}
 %\renewcommand{\stanzaskip}{\smallskip}
 
+\renewcommand{\poemtitlefont}{\fontsize{12}{14}\selectfont}
+
 \begin{document}
 
 \global\verselinenumbersfalse
