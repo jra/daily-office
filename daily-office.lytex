@@ -462,6 +462,21 @@ As it was in the beginning, is now, and | ever shall be, * \verseline
 
 \section{\textsc{the lessons}}
 
+\bcpinst{One or more Lessons, as appointed, are read, the Reader first saying}
+
+A Reading from
+
+\bcpinst{A citation giving chapter and verse may be added.}
+
+\bcpinst{After each Lesson the Reader may say}
+
+The Word of the Lord.
+\textbf{Thanks be to God.}
+
+\bcpinst{Or the Reader may say, especially for readings from the Apocrypha}
+
+Here endeth the Reading.
+
 \pagebreak
 
 \subsection{\textsc{canticles}}
@@ -766,6 +781,697 @@ May the God of hope fill us with all joy and peace in believing through the powe
 
 Glory to God whose power, working in us, can do infinitely more than we can ask or imagine: Glory to him from generation to generation in the Church, and in Christ Jesus for ever and ever. \textbf{Amen.}
 \vattrib{Ephesians}{(3:20-21t)}
+
+
+
+
+
+
+
+
+
+
+
+
+
+\chapter{Vespers}
+
+\subsection{\textsc{common}}
+
+Then spake Jesus again unto them, saying, I am the light of the world: he that followeth me shall not walk in darkness, but shall have the light of life.
+\vattrib{John}{(8:12)}
+
+Lord, I have loved the habitation of thy house, and the place where thine honor dwelleth.
+\vattrib{Psalms}{(26:8)}
+
+Let my prayer be set forth in thy sight as the incense; and let the lifting up of my hands be an evening sacrifice.
+\vattrib{Psalms}{(141:2)}
+
+\subsection{\textsc{at any time}}
+
+O worship the Lord in the beauty of holiness; let the whole earth stand in awe of him.
+\vattrib{Psalms}{(96:9)}
+
+I will thank the Lord for giving me warning, \\
+my reins also chasten me in the night season. \\
+I have set the Lord alway before me; \\
+for he is on my right hand, therefore I shall not fall.
+\vattrib{Psalms}{(16:8-9)}
+
+\subsection{\textsc{advent}}
+
+Watch ye therefore: for ye know not when the master of the house cometh, at even, or at midnight, or at the cock-crowing, or in the morning: Lest coming suddenly he find you sleeping.
+\vattrib{Mark}{(13:35-36)}
+
+\subsection{\textsc{christmas}}
+
+Behold, the tabernacle of God is with men, and he will dwell with them, and they shall be his people, and God himself shall be with them, and be their God.
+\vattrib{Revelation}{(21:3)}
+
+\section{\textsc{confession of sin}}
+
+\bcpinst{The Officiant says to the People}
+
+Let us humbly confess our sins unto Almighty God.
+
+\bcpinst{Silence is kept. All kneeling, the Officiant and People say}
+
+\begin{poem}
+\begin{stanza}
+\textbf{
+Almighty and most merciful Father, \verseline
+\verseindent we have erred and strayed from thy ways like lost sheep. \verseline
+We have followed too much the devices and desires \verseline
+\verseindent of our own hearts. \verseline
+We have offended against thy holy laws. \verseline
+We have left undone those things which we ought to have done, \verseline
+\verseindent and we have done those things which we ought not \verseline
+\verseindent to have done; \verseline
+\verseindent and apart from thy grace, there is no health in us. \verseline
+But thou, O Lord, have mercy upon us, miserable offenders. \verseline
+Spare thou those, O God, who confess their faults. \verseline
+Restore thou those who are penitent, according to thy promises \verseline
+\verseindent declared unto mankind in Christ Jesus our Lord. \verseline
+And grant, O most merciful Father, for his sake, \verseline
+\verseindent that we may hereafter live a godly, righteous, and sober life, \verseline
+\verseindent to the glory of thy holy Name. Amen.
+}
+\end{stanza}
+\end{poem}
+
+\bcpinst{A Deacon or layperson remains kneeling and prays}
+
+Grant, we beseech thee, merciful Lord, to thy faithful people pardon and peace, that we may be cleansed from all our sins, and serve thee with a quiet mind; through Jesus Christ our Lord. \textbf{Amen.}
+
+\section{\textsc{invitatory}}
+
+\subsection{\textsc{preces}}
+
+\bcpinst{All stand.}
+
+\begin{lilypond}[noindent,fragment,staffsize=15]
+    \key d \major
+    {
+      \clef "treble"
+      \hide Staff.Stem
+      \override Staff.TimeSignature #'stencil = ##f
+      \cadenzaOn
+      a'\breve a'4 a'4 fis'4 a'4
+      \cadenzaOff
+      \bar "|"
+    }
+    \addlyrics {
+      \once \override LyricText.self-alignment-X = #LEFT
+      O_Lord, open thou our lips;
+    }
+\end{lilypond}
+
+%\begin{lilypond}[quote,noindent,fragment,staffsize=15]
+%    \key d \major
+%    {
+%      \clef "treble"
+%      \hide Staff.Stem
+%      \override Staff.TimeSignature #'stencil = ##f
+%      \cadenzaOn
+%      a'\breve a'4 a'4 fis'4 a'4
+%      \cadenzaOff
+%      \bar "|"
+%    }
+%    \addlyrics {
+%      \once \override LyricText.self-alignment-X = #LEFT
+%      O_Lord, open thou our lips;
+%    }
+%\end{lilypond}
+
+\begin{lilypond}[noindent,fragment,staffsize=15]
+    \key d \major
+    {
+      \clef "treble"
+      \override Staff.TimeSignature #'stencil = ##f
+      \cadenzaOn
+      a'\breve b'8[ a'8] fis'4
+      \cadenzaOff
+      \bar "||"
+    }
+    \addlyrics {
+      \once \override LyricText.self-alignment-X = #LEFT
+      \override LyricText.font-series = #'bold
+      And_our_mouth_shall_show forth thy praise.
+    }
+\end{lilypond}
+
+%\begin{lilypond}[quote,noindent,fragment,staffsize=15]
+%    melody =
+%    \key d \major
+%    {
+%      \clef "treble"
+%      \override Staff.TimeSignature #'stencil = ##f
+%      \cadenzaOn
+%      a'\breve b'8[ a'8] fis'4
+%      \cadenzaOff
+%      \bar "||"
+%    }
+%    \addlyrics {
+%      \once \override LyricText.self-alignment-X = #LEFT
+%      \markup\bold {\lyricmode{And_our_mouth_shall_show forth thy praise.}}
+%    }
+%\end{lilypond}
+
+\begin{lilypond}[noindent,fragment,staffsize=15]
+    \key d \major
+    {
+      \clef "treble"
+      \hide Staff.Stem
+      \override Staff.TimeSignature #'stencil = ##f
+      \cadenzaOn
+      a'\breve b'4 a'4 a'4
+      \cadenzaOff
+      \bar "|"
+    }
+    \addlyrics {
+      \once \override LyricText.self-alignment-X = #LEFT
+      O_God,_make_speed to save us;
+    }
+\end{lilypond}
+
+\begin{lilypond}[noindent,fragment,staffsize=15]
+    \key d \major
+    {
+      \clef "treble"
+      \override Staff.TimeSignature #'stencil = ##f
+      \cadenzaOn
+      a'\breve a'8[ a'8 gis'8] a'4
+      \cadenzaOff
+      \bar "||"
+    }
+    \addlyrics {
+      \once \override LyricText.self-alignment-X = #LEFT
+      \override LyricText.font-series = #'bold
+      O_Lord,_make haste to help us.
+    }
+\end{lilypond}
+
+\begin{lilypond}[noindent,fragment,staffsize=15]
+    \key d \major
+    {
+      \clef "treble"
+      \override Staff.TimeSignature #'stencil = ##f
+      \cadenzaOn
+      fis'8[ d'8] a'\breve fis'8[ g'8] a'4 \bar "|"
+      a'\breve d''8[ cis''8] b'4
+      \cadenzaOff
+      \bar "|"
+    }
+    \addlyrics {
+      Glo -- ry
+      \once \override LyricText.self-alignment-X = #LEFT
+      "be to the Father, and" to the Son,
+      \once \override LyricText.self-alignment-X = #LEFT
+      and_to_the Ho -- ly Ghost;
+    }
+\end{lilypond}
+
+\begin{lilypond}[noindent,fragment,staffsize=15]
+    \key d \major
+    {
+      \clef "treble"
+      \override Staff.TimeSignature #'stencil = ##f
+      \cadenzaOn
+      fis'\breve b'8([ a'8]) g'4 \bar "|"
+      fis'\breve e'8([ d'8]) d'8([ cis'8]) d'4
+      \cadenzaOff
+      \bar "||"
+    }
+    \addlyrics {
+      \override LyricText.font-series = #'bold
+      \once \override LyricText.self-alignment-X = #LEFT
+      As_it_was_in_the_be -- gin -- ning,
+      \once \override LyricText.self-alignment-X = #LEFT
+      is_now,_and_ever_shall_be,_world_with-out end. A -- men.
+    }
+\end{lilypond}
+
+\begin{lilypond}[noindent,fragment,staffsize=15]
+    \key d \major
+    {
+      \clef "treble"
+      \override Staff.TimeSignature #'stencil = ##f
+      \cadenzaOn
+      a'8[ a'8] a'8 gis'[( a'])
+      \cadenzaOff
+      \bar "|"
+    }
+    \addlyrics {
+      Praise ye the Lord.
+    }
+\end{lilypond}
+
+\begin{lilypond}[noindent,fragment,staffsize=15]
+    \key d \major
+    {
+      \clef "treble"
+      \override Staff.TimeSignature #'stencil = ##f
+      \once \override LyricText.self-alignment-X = #LEFT
+      \cadenzaOn
+      b'8[ b'8] a'8[ fis'8] g'4( a'4)
+      \cadenzaOff
+      \bar "|."
+    }
+    \addlyrics {
+      \override LyricText.font-series = #'bold
+      The Lord’s Name be praised.
+    }
+\end{lilypond}
+
+%\begin{lilypond}[noindent,fragment,staffsize=26]
+%  c' d' e' f' g'2 g'2
+%\end{lilypond}
+
+\subsection{\textsc{invitatory psalm}}
+
+%% MtL 644, R. Tomlinson
+%\begin{lilypond}[quote,noindent,fragment,staffsize=15]
+%    \key d \major
+%    {
+%      \clef "treble"
+%      \override Staff.TimeSignature #'stencil = ##f
+%      fis'1  a'2 gis'2  a'1
+%      \bar "||"
+%      a'1  b'2 d''2  d''2 cis''2  d''1
+%      \bar "|."
+%    }
+%\end{lilypond}
+
+\bcpinst{O Gladsome Night hymn, or this}
+
+\poemtitle{Phos Hilaron}
+\poemsubtitle{O Gladsome Light}
+
+% TODO add some chant
+\begin{lilypond}[noindent,fragment,staffsize=15]
+    \key d \major
+    {
+      \clef "treble"
+      %\hide Staff.Stem
+      \override Staff.TimeSignature #'stencil = ##f
+      %\cadenzaOn
+      fis'1 fis'2 g'2 fis'1 \bar "||"
+      fis'1 e'2 d'2 g'2 fis'2 e'1 \bar "||"
+      a'1 a'2 d'2 a'1 \bar "||"
+      a'1 g'2 fis'2 fis'2 e'2 d'1 \bar "|."
+      %\cadenzaOff
+    }
+\end{lilypond}
+
+\textbf{
+\begin{poem}
+\begin{stanza}
+O gladsome light, \verseline
+pure brightness of the everliving Father in heaven, * \verseline
+\verseindent O Jesus Christ, holy and blessed! \verseline
+Now as we come to the setting of the sun, \verseline
+and our eyes behold the vesper light, * \verseline
+\verseindent we sing thy praises, O God: Father, Son, and Holy Spirit. Thou art worthy at all times to be praised by happy voices, * \verseline
+\verseindent O Son of God, O Giver of Life, \verseline
+\verseindent and to be glorified through all the worlds.
+\end{stanza}
+\end{poem}
+}
+
+\bcpinst{or this}
+
+\poemtitle{Phos Hilaron}
+\poemsubtitle{Hymn of Light}
+\begin{lilypond}[noindent,fragment,staffsize=15]
+    \key f \major
+    {
+      \clef "treble"
+      \hide Staff.Stem
+      \override Staff.TimeSignature #'stencil = ##f
+      \cadenzaOn
+      d'4 f'4 g'4 f'4 g'4 a'4
+      \cadenzaOff
+      \bar "|"
+    }
+    \addlyrics {
+      Joy -- ous light of glo -- ry:
+    }
+\end{lilypond}
+
+\begin{lilypond}[noindent,fragment,staffsize=15]
+    \key f \major
+    {
+      \clef "treble"
+      \override Staff.TimeSignature #'stencil = ##f
+      \cadenzaOn
+      a'8[ g'8 f'8] g'8[ f'8] e'4 d'4 \bar "|"
+      a'8[ g'8 f'8] g'8[ f'8] \bar "|"  % newline
+      e'4 d'4 f'4 e'4 f'2 \bar "|"
+      d'8[ e'8] f'8[ e'8 f'8] \bar "|"  % newline
+      g'8[ f'8] e'8[ d'8] c'4 \bar "|"
+      d'8[ e'8] f'8[ e'8 f'8] g'8[ f'8] e'4 \bar "|"  % newline
+      d'4 a'8[ g'8] a'4. a'8 c''8[ bes'8] a'8[ g'8] f'8[ g'8] a'4 g'4 \bar "|" % newline
+      f'8[ g'8] a'8[ g'8 f'8] g'8[ f'8] e'4 \bar "|"
+      d'8[ f'8] a'8[ g'8 f'8] \bar "|" % newline
+      e'4 d'4  \bar "|"
+      f'4 a'8[ g'8] c''4 bes'4 a'8[ a'8 g'8] f'4 \bar "|" % newline
+      f'8 d'8[ e'8] f'8[ f'8] a'8[ g'8] g'4 f'4 \bar "|" % newline
+      \cadenzaOff
+      \bar "||"
+    }
+    \addlyrics {
+      \override LyricText.font-series = #'bold
+      of the im -- mor -- tal Fa -- ther;
+      heav -- en -- ly, ho -- ly,  % newline
+      bless -- ed Je -- sus Christ.
+      We have come to the  % newline
+      set -- ting of the sun,
+      and we look to the eve -- ning light.  % newline
+      We sing to God, the Fa -- ther, Son, and Ho -- ly Spirt -- it:  % newline
+      You are wor -- thy of be -- ing praised with pure voic -- es for --
+      ev -- er.
+      O Son of God, O Giv -- er of life.
+      the u -- ni -- verse pro -- claims Your glo -- ry.
+    }
+\end{lilypond}
+
+\section{\textsc{the psalm or psalms appointed}}
+
+\subsection{\textsc{gloria patri}}
+
+\textbf{
+\begin{poem}
+\begin{stanza}
+Glory be to the Father, and | to the Son, * \verseline
+\verseindent and | to the Holy Ghost; \verseline
+As it was in the beginning, is now, and | ever shall be, * \verseline
+\verseindent world without END. Amen.
+\end{stanza}
+\end{poem}
+}
+
+\section{\textsc{the lessons}}
+
+\bcpinst{One or more Lessons, as appointed, are read, the Reader first saying}
+
+A Reading from
+
+\bcpinst{A citation giving chapter and verse may be added.}
+
+\bcpinst{After each Lesson the Reader may say}
+
+The Word of the Lord. \\
+\textbf{Thanks be to God.}
+
+\bcpinst{Or the Reader may say, especially for readings from the Apocrypha}
+
+Here endeth the Reading.
+
+\subsection{\textsc{canticles}}
+
+\poemtitle{Magnificat}
+\poemsubtitle{The Song of Mary}
+
+% TODO change chant
+% Te Deum laudamus, E. G. Monk, 652
+\begin{lilypond}[noindent,fragment,staffsize=15]
+    \key bes \major
+    {
+      \clef "treble"
+      %\hide Staff.Stem
+      \override Staff.TimeSignature #'stencil = ##f
+      %\cadenzaOn
+      bes'1 d'2 ees'2 f'1 \bar "||"
+      g'1 a'2 bes'2 bes'2 a'2 bes'1 \bar "|."
+      %\cadenzaOff
+    }
+\end{lilypond}
+
+\textbf{
+\begin{poem}
+\begin{stanza}
+My soul doth magnify the Lord, * \verseline
+\verseindent and my spirit hath rejoiced in God my Savior. \verseline
+For he hath regarded * \verseline
+\verseindent the lowliness of his handmaiden. \verseline
+For behold from henceforth * \verseline
+\verseindent all generations shall call me blessed. \verseline
+For he that is mighty hath magnified me, * \verseline
+\verseindent and holy is his Name. \verseline
+And his mercy is on them that fear him * \verseline
+\verseindent throughout all generations. \verseline
+He hath showed strength with his arm; * \verseline
+\verseindent he hath scattered the proud in the imagination of their hearts. \verseline
+He hath put down the mighty from their seat, * \verseline
+\verseindent and hath exalted the humble and meek. \verseline
+He hath filled the hungry with good things, * \verseline
+\verseindent and the rich he hath sent empty away. \verseline
+He remembering his mercy hath holpen his servant Israel, * \verseline
+\verseindent as he promised to our forefathers, Abraham and his seed for ever. \verseline
+Glory be to the Father, and to the Son, and to the Holy Ghost; * \verseline
+\verseindent as it was in the beginning, is now, and ever shall be, world without end. Amen.
+\end{stanza}
+\end{poem}
+}
+
+\vattrib{Luke}{(1:46-55)}
+
+
+\poemtitle{Nunc Dimittis}
+\poemsubtitle{The Song of Simeon}
+
+% TODO change chant
+% Te Deum laudamus, E. G. Monk, 652
+\begin{lilypond}[noindent,fragment,staffsize=15]
+    \key bes \major
+    {
+      \clef "treble"
+      %\hide Staff.Stem
+      \override Staff.TimeSignature #'stencil = ##f
+      %\cadenzaOn
+      bes'1 d'2 ees'2 f'1 \bar "||"
+      g'1 a'2 bes'2 bes'2 a'2 bes'1 \bar "|."
+      %\cadenzaOff
+    }
+\end{lilypond}
+
+\textbf{
+\begin{poem}
+\begin{stanza}
+Lord, now lettest thou thy servant depart in peace, * \verseline
+according to thy word; \verseline
+For mine eyes have seen thy salvation, * \verseline
+which thou hast prepared before the face of all people, \verseline
+To be a light to lighten the Gentiles, * \verseline
+and to be the glory of thy people Israel. \verseline
+Glory be to the Father, and to the Son, and to the Holy Ghost; * \verseline
+as it was in the beginning, is now, and ever shall be, world without end. Amen.
+\end{stanza}
+\end{poem}
+}
+
+\vattrib{Luke}{(1:46-55)}
+
+
+\section{\textsc{the apostles' creed}}
+
+\bcpinst{Officiant and People together, all standing}
+
+\textbf{
+\begin{poem}
+\begin{stanza}
+I believe in God, the Father almighty, \verseline
+\verseindent maker of heaven and earth; \verseline
+And in Jesus Christ, his only Son, our Lord; \verseline
+\verseindent who was conceived by the Holy Ghost, \verseline
+\verseindent born of the Virgin Mary, \verseline
+\verseindent suffered under Pontius Pilate, \verseline
+\verseindent was crucified, dead, and buried. \verseline
+\verseindent He descended into hell. \verseline
+\verseindent The third day he rose again from the dead. \verseline
+\verseindent He ascended into heaven, \verseline
+\verseindent and sitteth on the right hand of God the Father almighty. \verseline
+\verseindent From thence he shall come to judge the quick and the dead. \verseline
+I believe in the Holy Ghost, \verseline
+\verseindent the holy catholic Church, \verseline
+\verseindent the communion of saints, \verseline
+\verseindent the forgiveness of sins, \verseline
+\verseindent the resurrection of the body, \verseline
+\verseindent and the life everlasting. Amen.
+\end{stanza}
+\end{poem}
+}
+
+\section{\textsc{the prayers}}
+
+\begin{lilypond}[noindent,fragment,staffsize=15]
+    \key f \major
+    {
+      \clef "treble"
+      %\hide Staff.Stem
+      \override Staff.TimeSignature #'stencil = ##f
+      f'1 e'2 d'2 f'1 \bar "||"
+    }
+\end{lilypond}
+
+\begin{poem}
+\begin{stanza}
+The Lord | be with you. \verseline
+\textbf{And with your | SPIRit.}
+\end{stanza}
+\end{poem}
+
+Let us pray.
+
+\bcpinst{The People kneel or stand.}
+
+\subsection{\textsc{kyrie}}
+
+\begin{lilypond}[noindent,fragment,staffsize=15]
+    \key f \major
+    {
+      \clef "treble"
+      \override Staff.TimeSignature #'stencil = ##f
+      a'8[( g'8] f'8[) f'8] e'4 f'4 \bar "|"
+      a'8[( bes'8] a'8[) g'8] g'4 a'4 \bar "|"
+      a'8[( g'8] f'8[) f'8] e'4 f'4 \bar "|."
+    }
+    \addlyrics {
+      Lord, have mer -- cy;
+      Christ, have mer -- cy;
+      Lord, have mer -- cy.
+    }
+\end{lilypond}
+
+\bcpinst{Officiant and People}
+
+\textbf{
+\begin{poem}
+\begin{stanza}
+Our Father, who art in heaven, \verseline
+\verseindent hallowed be thy Name, \verseline
+\verseindent thy kingdom come, \verseline
+\verseindent thy will be done, \verseline
+\verseindent on earth as it is heaven. \verseline
+Give us this day our daily bread. \verseline
+And forgive us our trespasses, \verseline
+\verseindent as we forgive those who trespass against us. \verseline
+And lead us not into temptation, \verseline
+\verseindent but deliver us from evil. \verseline
+For thine is the kingdom, and the power, and the glory, \verseline
+\verseindent for ever and ever. Amen.
+\end{stanza}
+\end{poem}
+}
+
+\subsection{\textsc{suffrages}}
+
+\begin{poem}
+\begin{stanza}
+O Lord, show thy mercy upon us; \verseline
+\textbf{And grant us thy salvation.} \verseline
+O Lord, guide those who govern us; \verseline
+\textbf{And lead us in the way of justice and truth.} \verseline
+Endue thy ministers with righteousness; \verseline
+\textbf{And make thy chosen people joyful.} \verseline
+O Lord, save thy people; \verseline
+\textbf{And bless thine inheritance.} \verseline
+Give peace in our time, O Lord; \verseline
+\textbf{And defend us by thy mighty power.} \verseline
+Let not the needy, O Lord, be forgotten; \verseline
+\textbf{Nor the hope of the poor be taken away}. \verseline
+O God, make clean our hearts within us; \verseline
+\textbf{And take not thy Holy Spirit from us.}
+\end{stanza}
+\end{poem}
+
+\subsection{\textsc{the collect of the day}}
+
+\pagebreak
+
+\subsection{\textsc{prayer for mission}}
+
+O God and Father of all, whom the whole heavens adore: Let the whole earth also worship thee, all nations obey thee, all tongues confess and bless thee, and men, women, and children everywhere love thee and serve thee in peace; through Jesus Christ our Lord. \textbf{Amen.}
+
+\bcpinst{The Officiant may invite the People to offer intercessions and thanksgivings.}
+
+\bcpinst{A hymn or anthem may be sung.}
+
+\bcpinst{Before the close of the Office one or both of the following prayers may be used.}
+
+\subsection{\textsc{the general thanksgiving}}
+
+\bcpinst{Officiant and People}
+
+\textbf{
+\begin{poem}
+\begin{stanza}
+Almighty God, Father of all mercies, \verseline
+\verseindent we, thine unworthy servants, \verseline
+\verseindent do give thee most humble and hearty thanks \verseline
+\verseindent for all thy goodness and loving-kindness to us and to all men. \verseline
+We bless thee for our creation, preservation, \verseline
+\verseindent and all the blessings of this life; \verseline
+\verseindent but above all, for thine inestimable love \verseline
+\verseindent in the redemption of the world by our Lord Jesus Christ; \verseline
+\verseindent for the means of grace, and for the hope of glory. \verseline
+And, we beseech thee, \verseline
+\verseindent give us that due sense of all thy mercies, \verseline
+\verseindent that our hearts may be unfeignedly thankful: \verseline
+\verseindent and that we show forth thy praise, \verseline
+\verseindent not only with our lips, but in our lives, \verseline
+\verseindent by giving up our selves to thy service, \verseline
+\verseindent and by walking before thee \verseline
+\verseindent in holiness and righteousness all our days; \verseline
+through Jesus Christ our Lord, \verseline
+\verseindent to whom, with thee and the Holy Ghost, \verseline
+\verseindent be all honor and glory, world without end. Amen.
+\end{stanza}
+\end{poem}
+}
+
+\subsection{\textsc{a prayer of st. john chrysostom}}
+
+Almighty God, who hast given us grace at this time, with one accord to make our common supplications unto thee; and who hast promised through thy well-beloved Son that when two or three are gathered together in his Name thou wilt grant their requests: Fulfill now, O Lord, our desires and petitions as may be best for us; granting us in this world knowledge of thy truth, and in the age to come life everlasting. \textbf{Amen.}
+
+\section{\textsc{closing}}
+
+\begin{lilypond}[noindent,fragment,staffsize=15]
+    \key f \major
+    {
+      \clef "treble"
+      %\hide Staff.Stem
+      \override Staff.TimeSignature #'stencil = ##f
+      f'1 f'2 d'2 f'1 \bar "||"
+      g'1 f'2 ees'2 d'1 \bar "|."
+    }
+\end{lilypond}
+
+\begin{poem}
+\begin{stanza}
+Let us | bless the Lord. \verseline
+\textbf{Thanks | be to God.}
+\end{stanza}
+\end{poem}
+
+
+\bcpinst{From Easter Day through the Day of Pentecost, “Alleluia, alleluia” may be added to the preceding versicle and response.}
+
+\bcpinst{The Officiant says one of these concluding sentences (and the People may be invited to join)}
+
+The grace of our Lord Jesus Christ, and the love of God, and the fellowship of the Holy Ghost, be with us all evermore. \textbf{Amen.}
+\vattrib{IICorinthians}{(13:14t)}
+
+May the God of hope fill us with all joy and peace in believing through the power of the Holy Spirit. \textbf{Amen.}
+\vattrib{Romans}{(15:13t)}
+
+Glory to God whose power, working in us, can do infinitely more than we can ask or imagine: Glory to him from generation to generation in the Church, and in Christ Jesus for ever and ever. \textbf{Amen.}
+\vattrib{Ephesians}{(3:20-21t)}
+
+
+
+
+
 
 \end{document}
 
