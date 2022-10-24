@@ -1195,14 +1195,14 @@ Here endeth the Reading.
 % TODO change chant
 % Te Deum laudamus, E. G. Monk, 652
 \begin{lilypond}[noindent,fragment,staffsize=15]
-    \key bes \major
+    \key f \major
     {
       \clef "treble"
       %\hide Staff.Stem
       \override Staff.TimeSignature #'stencil = ##f
       %\cadenzaOn
-      bes'1 d'2 ees'2 f'1 \bar "||"
-      g'1 a'2 bes'2 bes'2 a'2 bes'1 \bar "|."
+      a'1 g'2 a'2 bes'1 \bar "||"
+      bes'1 a'2 c'2 g'2 g'2 f'1 \bar "|."
       %\cadenzaOff
     }
 \end{lilypond}
@@ -1210,26 +1210,28 @@ Here endeth the Reading.
 \textbf{
 \begin{poem}
 \begin{stanza}
-My soul doth magnify the Lord, * \verseline
-\verseindent and my spirit hath rejoiced in God my Savior. \verseline
-For he hath regarded * \verseline
-\verseindent the lowliness of his handmaiden. \verseline
-For behold from henceforth * \verseline
-\verseindent all generations shall call me blessed. \verseline
-For he that is mighty hath magnified me, * \verseline
-\verseindent and holy is his Name. \verseline
-And his mercy is on them that fear him * \verseline
-\verseindent throughout all generations. \verseline
-He hath showed strength with his arm; * \verseline
-\verseindent he hath scattered the proud in the imagination of their hearts. \verseline
-He hath put down the mighty from their seat, * \verseline
-\verseindent and hath exalted the humble and meek. \verseline
-He hath filled the hungry with good things, * \verseline
-\verseindent and the rich he hath sent empty away. \verseline
-He remembering his mercy hath holpen his servant Israel, * \verseline
-\verseindent as he promised to our forefathers, Abraham and his seed for ever. \verseline
-Glory be to the Father, and to the Son, and to the Holy Ghost; * \verseline
-\verseindent as it was in the beginning, is now, and ever shall be, world without end. Amen.
+My soul doth magni|fy the Lord, * \verseline
+\verseindent and my spirit hath rejoiced in | God my SAvior. \verseline
+For | he $\cdot$ hath re|garded * \verseline
+\verseindent the lowliness | of his HANDmaiden. \verseline
+For be|hold from henceforth * \verseline
+\verseindent all generations shall | call me BLESSed. \verseline
+For he that is mighty hath | magni$\cdot$fied me, * \verseline
+\verseindent and | holy is his Name. \verseline
+And his mercy is on | them that fear him * \verseline
+\verseindent throughout | all $\cdot$ generAtions. \verseline
+He hath showed | strength $\cdot$ with his | arm; * \verseline
+\verseindent he hath scattered the proud in the imagi|nation of their hearts. \verseline
+He hath put down the mighty | from their seat, * \verseline
+\verseindent and hath ex|alted $\cdot$ the | humble $\cdot$ and meek. \verseline
+He hath filled the hungry with | GOOD things, * \verseline
+\verseindent and the rich he hath | SENT | empty $\cdot$ away. \verseline
+He remembering his mercy hath holpen his servant | Israel, * \verseline
+\verseindent as he promised to our forefathers, Abraham and his | seed for EVer. \verseline
+Glory be to the Father, and | to the Son, * \verseline
+\verseindent and | to the Holy Ghost; \verseline
+as it was in the beginning, is now, and | ever shall be, \verseline
+\verseindent world without | END. Amen.
 \end{stanza}
 \end{poem}
 }
