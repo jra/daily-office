@@ -45,6 +45,8 @@
 
 \chapter{Matins}
 
+\subsection{\textsc{common}}
+
 Grace be unto you and peace, from God our Father, and from the Lord Jesus Christ.
 \vattrib{Philippians}{(1:2)}
 
@@ -372,7 +374,7 @@ Alleluia, unto us a child is born: \verseline
       %\cadenzaOn
       fis'1 fis'2 g'2 fis'1 \bar "||"
       fis'1 e'2 d'2 g'2 fis'2 e'1 \bar "||"
-      a'1 a'2 d'2 a'1 \bar "||"
+      a'1 a'2 d''2 a'1 \bar "||"
       a'1 g'2 fis'2 fis'2 e'2 d'1 \bar "|."
       %\cadenzaOff
     }
@@ -543,10 +545,10 @@ When thou tookest upon thee to de | liver man, * \verseline
 \verseindent thou didst humble thyself to be | born $\cdot$ of a | VIRgin. \verseline
 When thou hadst overcome the | sharpness $\cdot$ of death, * \verseline
 \verseindent thou didst open the kingdom of heaven to | all beLIEVers. \verseline
-Thou sittest at the right | hand of God, \verseline
-in the glory | of the FAther. * \verseline
-\verseindent We believe that thou shalt come to | be our judge. \verseline
-We therefore pray thee, help thy servants, * \verseline
+Thou sittest at the right | hand of God, * \verseline
+\verseindent in the glory | of the FAther. \verseline
+We believe that thou shalt come to | be our judge. * \verseline
+\verseindent We therefore pray thee, help thy servants, \verseline
 \verseindent whom thou hast redeemed | with thy precious blood. \verseline
 Make them to be numbered | with thy saints, * \verseline
 \verseindent in glory | everLASTing.
@@ -579,10 +581,8 @@ Day by day we | magni $\cdot$ fy thee; * \verseline
 \verseindent and we worship thy Name ever, | world withOUT end. \verseline
 Vouchsafe, O Lord, to keep us this day with|OUT sin; * \verseline
 \verseindent O Lord, have mercy upon us, have | mercy $\cdot$ upON us. \verseline
-O Lord, let thy mercy be upon us; * \verseline
-\verseindent As our | trust $\cdot$ is in $\cdot$ thee. \verseline
-O Lord, in thee have I trusted; * \verseline
-\verseindent Let me never | be conFOUNDed.
+O Lord, let thy mercy be upon us, as our | trust $\cdot$ is in $\cdot$ thee. \verseline
+\verseindent O Lord, in thee have I trusted; let me never | be conFOUNDed.
 \end{stanza}
 \end{poem}
 }
@@ -699,13 +699,45 @@ O God, make clean our hearts within us; \verseline
 \end{stanza}
 \end{poem}
 
+% collectsam
+
 \subsection{\textsc{the collect of the day}}
 
-\pagebreak
+\bcpinst{The Officiant then prays one or more of the following Collects, always beginning with the Collect of the Day (usually the Collect of the Sunday or Principal Feast and of any of the weekdays following, or of the Holy Day being observed). It is traditional to pray the Collects for Peace and Grace daily. Alternatively, one may pray the Collects on a weekly rotation, using the suggestions in italics.}
+
+\subsubsection{a collect for strength to await christ’s return, Sunday}
+
+O God our King, by the resurrection of thy Son Jesus Christ on the first day of the week, thou didst conquer sin, put death to flight, and give unto us the hope of everlasting life: Redeem all our days by this victory; forgive our sins, banish our fears, make us bold to praise thee and to do thy will; and steel us to wait for the consummation of thy kingdom on the last great Day; through Jesus Christ our Lord. \textbf{Amen.}
+
+\subsubsection{a collect for the renewal of life, Monday}
+
+O God, the King eternal, whose light divideth the day from the night and turneth the shadow of death into the morning: Drive far from us all wrong desires, incline our hearts to keep thy
+law, and guide our feet into the way of peace; that, having done thy will with cheerfulness during the day, we may, when night comes, rejoice to give thee thanks; through Jesus Christ our
+Lord. \textbf{Amen.}
+
+\subsubsection{a collect for peace, Tuesday}
+
+O God, who art the author of peace and lover of concord, in knowledge of whom standeth our eternal life, whose service is perfect freedom; Defend us thy humble servants in all assaults of our enemies; that we, surely trusting in thy defence, may not fear the power of any adversaries, through the might of Jesus Christ our Lord. \textbf{Amen.}
+
+\subsubsection{a collect for grace, Wednesday}
+
+O Lord, our heavenly Father, Almighty and everlasting God, who hast safely brought us to the beginning of this day; Defend us in the same with thy mighty power; and grant that this day we fall into no sin, neither run into any kind of danger; but that all our doings, being ordered by thy governance, may be righ- teous in thy sight; through Jesus Christ our Lord. \textbf{Amen.}
+
+\subsubsection{a collect for guidance, Thursday}
+
+Heavenly Father, in whom we live and move and have our being: We humbly pray thee so to guide and govern us by thy Holy Spirit, that in all the cares and occupations of our life we may not forget thee, but may remember that we are ever walking in thy sight; through Jesus Christ our Lord. \textbf{Amen.}
+
+\subsubsection{a collect for endurance, Friday}
+
+Almighty God, whose most dear Son went not up to joy but first he suffered pain, and entered not into glory before he was crucified: Mercifully grant that we, walking in the way of the Cross, may find it none other than the way of life and peace; through Jesus Christ thy Son our Lord. \textbf{Amen.}
+
+\subsubsection{a collect for sabbath rest, Saturday}
+
+Almighty God, who after the creation of the world didst rest from all thy works and sanctify a day of rest for all thy creatures: Grant that we, putting away all earthly anxieties, may be duly prepared for the service of your sanctuary, and that our rest here upon earth may be a preparation for the eternal rest promised to thy people in heaven; through Jesus Christ our Lord. \textbf{Amen.}
 
 \subsection{\textsc{prayer for mission}}
 
-Almighty and everlasting God, who alone workest great marvels: Send down upon our clergy and the congregations committed to their charge the life-giving Spirit of thy grace, shower them with the continual dew of thy blessing, and ignite in them a zealous love of thy Gospel; through Jesus Christ our Lord. \textbf{Amen.}
+O God, who hast made of one blood all the peoples of the earth, and didst send thy blessed Son to preach peace to those who are far off and to those who are near: Grant that people everywhere may seek after thee and find thee; bring the nations into thy fold; pour out thy Spirit upon all flesh; and hasten the coming of thy kingdom; through the same thy Son Jesus Christ our Lord. \textbf{Amen.}
 
 \bcpinst{The Officiant may invite the People to offer intercessions and thanksgivings.}
 
@@ -1192,8 +1224,7 @@ Here endeth the Reading.
 \poemtitle{Magnificat}
 \poemsubtitle{The Song of Mary}
 
-% TODO change chant
-% Te Deum laudamus, E. G. Monk, 652
+% Magnificat, W. B. Gilbert, 687
 \begin{lilypond}[noindent,fragment,staffsize=15]
     \key f \major
     {
@@ -1203,6 +1234,22 @@ Here endeth the Reading.
       %\cadenzaOn
       a'1 g'2 a'2 bes'1 \bar "||"
       bes'1 a'2 c'2 g'2 g'2 f'1 \bar "|."
+      %\cadenzaOff
+    }
+\end{lilypond}
+
+% Magnificat, J. Turle, 689
+\begin{lilypond}[noindent,fragment,staffsize=15]
+    \key f \major
+    {
+      \clef "treble"
+      %\hide Staff.Stem
+      \override Staff.TimeSignature #'stencil = ##f
+      %\cadenzaOn
+      f'1 g'2 g'2 a'1 \bar "||"
+      c''1 g'2 a'2 bes'2 a'2 g'1 \bar "||"
+      g'1 a'2 a'2 bes'1 \bar "||"
+      d''1 c''2 a'2 g'2 g'2 f'1 \bar "|."
       %\cadenzaOff
     }
 \end{lilypond}
@@ -1242,17 +1289,16 @@ as it was in the beginning, is now, and | ever shall be, \verseline
 \poemtitle{Nunc Dimittis}
 \poemsubtitle{The Song of Simeon}
 
-% TODO change chant
-% Te Deum laudamus, E. G. Monk, 652
+% Nunc dimittis, R. Farrrant, 699
 \begin{lilypond}[noindent,fragment,staffsize=15]
-    \key bes \major
+    \key e \major
     {
       \clef "treble"
       %\hide Staff.Stem
       \override Staff.TimeSignature #'stencil = ##f
       %\cadenzaOn
-      bes'1 d'2 ees'2 f'1 \bar "||"
-      g'1 a'2 bes'2 bes'2 a'2 bes'1 \bar "|."
+      e'1 e'2 fis'2 gis'1 \bar "||"
+      b'1 a'2 gis'2 fis'2 fis'2 e'1 \bar "|."
       %\cadenzaOff
     }
 \end{lilypond}
@@ -1260,14 +1306,18 @@ as it was in the beginning, is now, and | ever shall be, \verseline
 \textbf{
 \begin{poem}
 \begin{stanza}
-Lord, now lettest thou thy servant depart in peace, * \verseline
-according to thy word; \verseline
-For mine eyes have seen thy salvation, * \verseline
-which thou hast prepared before the face of all people, \verseline
-To be a light to lighten the Gentiles, * \verseline
-and to be the glory of thy people Israel. \verseline
-Glory be to the Father, and to the Son, and to the Holy Ghost; * \verseline
-as it was in the beginning, is now, and ever shall be, world without end. Amen.
+Lord, now lettest thou thy servant de|part in peace, * \verseline
+\verseindent  ac|cording to thy word; \verseline
+For mine | eyes have seen * \verseline
+\verseindent  thy | SALVAtion, \verseline
+which | thou $\cdot$ hast pre|pared * \verseline
+\verseindent  before the face of | ALL PEOple, \verseline
+To be a light to | lighten $\cdot$ the Gentiles, * \verseline
+\verseindent  and to be the glory of thy | people Israel. \verseline
+Glory be to the Father, and to | the Son, * \verseline
+\verseindent  and | to the Holy Ghost; \verseline
+as it was in the beginning, is now, and | ever shall be, * \verseline
+\verseindent world without | END. Amen.
 \end{stanza}
 \end{poem}
 }
@@ -1387,9 +1437,44 @@ O God, make clean our hearts within us; \verseline
 \end{stanza}
 \end{poem}
 
+% collectspm
+
 \subsection{\textsc{the collect of the day}}
 
-\pagebreak
+\bcpinst{The Officiant then prays one or more of the following Collects, always beginning with the Collect of the Day (usually the Collect of the Sunday or Principal Feast and of any of the weekdays following, or of the Holy Day being observed). It is traditional to pray the Collects for Peace and Aid against Perils daily. Alternatively, one may pray the Collects on a weekly rotation, using the suggestions in italics.}
+
+\subsubsection{a collect for resurrection hope, Sunday}
+
+Lord God, whose Son our Savior Jesus Christ didst triumph over the powers of death and prepare for us our place in the new Jerusalem: Grant that we, who have this day given thanks for his resurrection, may praise thee in that City of which he is the light, and where he livest and reignest for ever and ever. \textbf{Amen.}
+
+\subsubsection{a collect for peace, Monday}
+
+O God, from whom all holy desires, all good counsels, and all just works do proceed: Give unto thy servants that peace which the world cannot give; that our hearts may be set to obey thy commandments, and also that by thee, we, being defended from the fear of our enemies, may pass our time in rest and quietness; through the merits of Jesus Christ our Savior. \textbf{Amen.}
+
+\subsubsection{a collect for aid against perils, Tuesday}
+
+Lighten our darkness, we beseech thee, O Lord; and by thy great mercy defend us from all perils and dangers of this night; for the love of thine only Son, our Savior Jesus Christ. \textbf{Amen.}
+
+\subsubsection{a collect for protection, Wednesday}
+
+O God, the life of all who live, the light of the faithful, the strength of those who labor, and the repose of the dead: We thank thee for the blessings of the day that is past, and humbly ask for your protection through the coming night. Bring us in safety to the morning hours; through him who died and rose again for us, thy Son our Savior Jesus Christ. \textbf{Amen.}
+
+\subsubsection{a collect for the presence of christ, Thursday}
+
+Lord Jesus, stay with us, for evening is at hand and the day is past; be our companion in the way, kindle our hearts, and awaken hope, that we may know thee as thou art revealed in Scripture and the breaking of bread. Grant this for the sake of thy love. \textbf{Amen.}
+
+\subsubsection{a collect for faith, Friday}
+
+Lord Jesus Christ, by thy death thou hast taken away the sting of death: Grant unto us thy servants so to follow in faith where thou hast led the way, that we may at length fall asleep peace- fully in thee and wake up in thy likeness; for thy tender mercies’ sake. \textbf{Amen.}
+
+\subsubsection{a collect for the eve of worship, Saturday}
+
+O God, the source of eternal light: Shed forth thine unending day upon us who watch for thee, that our lips may praise thee, our lives may bless thee, and our worship on the morrow give thee glory; through Jesus Christ our Lord. \textbf{Amen.}
+
+
+
+
+
 
 \subsection{\textsc{prayer for mission}}
 
